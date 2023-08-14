@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: whitesmoke;
+}
+table{
+    width: 800px;
+    margin: auto;
+    table-layout: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+table,tr,th,td{
+    border: 1px double black;
+    border-collapse: collapse;
+    padding: 20px;
+    font-size: 20px;
+}
+th{
+    background:#6F4E37;
+    color: white;
+}
+form{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 50px;
+    margin-top: 0px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-end-end-radius: 5px;
+    cursor: pointer;
+}
+button{
+    background-color: #6F4E37;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-row {
+    font-size: 11px;
+  }
+}

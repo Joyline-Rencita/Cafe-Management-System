@@ -1,0 +1,25 @@
+body {
+    margin-top: 20px;
+}
+
+.container{
+    margin: 100px;
+    height: 150px;
+}
+ button{
+    height: 40px;
+    color: #fff;
+    background: #1abc1c;
+    padding: 5px 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 150px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    margin-left: 20px;
+    text-decoration: none;
+}
+a{
+    text-decoration: #fff;
+    color: #fff;
+}
