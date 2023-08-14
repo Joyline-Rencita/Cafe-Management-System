@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pizzamenu.css') }}">
+</head>
+<body>
+    <div class="flex">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Margherita.jpg') }}" class="card-img" alt="Image">
+            <h3>Margherita (Veg)</h3>
+            <p>A hugely popular Margherita with cheese topping.</p>
+            <button class="btn">Order Now</button>
+        </div>
+                
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Farmhouse.jpg') }}" class="card-img" alt="Image">
+            <h3>Farmhouse (Veg)</h3>
+            <p>A pizza that goes ballistic on veggies like mushrooms, paneer, capsicum.</p>
+            <button class="btn">Order Now</button>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Chickend.jpg') }}" class="card-img" alt="Image">
+            <h3>Chicken Dominator (Non-Veg)</h3>
+            <p>Treat your taste buds with pepper Barbecue Chicken Tikka & Grilled Rashers.</p>
+            <button class="btn">Order Now</button>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/ChickenPizza.jpg') }}" class="card-img" alt="Image">
+            <h3>Chicken Fiesta (Non-Veg)</h3>
+            <p>Grilled Chicken with Peri-Peri Spicy mix and veggies like onion & capsicum.</p>
+            <button class="btn">Order Now</button>
+            
+        
+        
+    </div>
+</body>
+</html>

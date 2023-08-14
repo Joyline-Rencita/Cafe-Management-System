@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Burgers.css') }}">
+</head>
+<body>
+    <div class="flex">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Americancheese.png') }}" class="card-img" alt="Image">
+            <h3>American Grilled Cheese Burger (Veg)</h3>
+            <p>Delicous Cheese Burger with Potatoes and veggies served fresh.<br></br></p>
+            <button class="btn">Order Now</button>
+        </div>
+                
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Chicken.jpg') }}" class="card-img" alt="Image">
+            <h3>Gourmet DoubleDecker Chicken Burger (Non-Veg)</h3>
+            <p>Premium mouth watering double patty grilled Chicken Burger with cheese.<br></br></p>
+            <button class="btn">Order Now</button>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Paneerdouble.jpg') }}" class="card-img" alt="Image">
+            <h3>Gourmet DoubleDecker Paneer Burger (Veg)</h3>
+            <p>Treat your taste buds with fresh cottage cheese burger with double patty and a lot of veggies.</p>
+            <button class="btn">Order Now</button>
+        </div>
+        
+            
+        
+        
+    </div>
+</body>
+</html>

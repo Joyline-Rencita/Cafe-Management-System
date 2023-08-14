@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/coffemenu.css') }}">
+</head>
+<body>
+    <div class="flex">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Americano.jfif') }}" class="card-img" alt="Image">
+            <h3>Americano</h3>
+            <p>Our simple yet satisfying Americano is made with hot water poured over our Rainforest Alliance Certified™ espresso.</p>
+            <button class="btn">Order Now</button>
+        </div>
+                
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Cappuccino.png') }}" class="card-img" alt="Image">
+            <h3>Cappuccino</h3>
+            <p>Our Cappuccino is made with whole steamed milk, bold espresso, foamed milk, and your choice of flavor.</p>
+            <button class="btn">Order Now</button>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Filtercoffee.jpg.png') }}" class="card-img" alt="Image">
+            <h3>Filter Coffee</h3>
+            <p>Classic South Indian style Filter Coffee that you can't resist.</p>
+            <button class="btn">Order Now</button>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/CafeLatte.png') }}" class="card-img" alt="Image">
+            <h3>Cafe Latte</h3>
+            <p>Brewing from rich espresso with steamed milk.</p>
+            <button class="btn">Order Now</button>
+            
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Coldcoffee.jpg') }}" class="card-img" alt="Image">
+            <h3>Cold Coffee</h3>
+            <p>Freshly brewed cold coffee that chills your heart instantly.</p>
+            <button class="btn">Order Now</button>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Dalgonacoffeejpg.jpg') }}" class="card-img" alt="Image">
+            <h3>Hot Velvet Coffee</h3>
+            <p>The Trendy Dalgona Coffee in a brand new Avatar.</p>
+            <button class="btn">Order Now</button>
+        </div>
+        
+    </div>
+</body>
+</html>

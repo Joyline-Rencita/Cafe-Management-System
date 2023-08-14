@@ -1,0 +1,23 @@
+
+<html>
+<head><title>Customers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>CUST_NAME</th>
+            <th>MOBILE_NO</th>
+            <th>ADDRESS</th>
+        </tr>
+        {% for row in customers %}
+        <tr>
+            {% for col in row %}
+                <td>{{row[col]}}</td>
+            {% endfor %}    
+        </tr>
+         {% endfor %} 
+    </table>
+</body>
+</html>

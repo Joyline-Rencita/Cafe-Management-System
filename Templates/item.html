@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+<link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+
+<link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/item.css') }}">
+</head>
+	
+<body>
+  <form action="{{url_for('item')}}" method="post">    
+    <div id="wrapper">
+            <h1>Choose Your Item<i class="fa fa-check"></i> </h1>
+
+    
+
+      <table>
+     
+        <tr> 
+          <td style="width:350px"><input class="box" type="checkbox" value="item2" name="items" id="check2"/>
+          <label for="check2">
+            <div><i class="fa fa-check"></i></div> AMERICANO
+          </label></td>
+          <td><input class="box1" type="number" name="item2" placeholder="enter the quantity"></td>
+        </tr>
+
+      <tr> 
+        <td><input class="box" type="checkbox" value="item3" name="items" id="check3"/>
+        <label for="check3">
+          <div><i class="fa fa-check"></i></div> CAPPUCCINNO 
+        </label></td>
+        <td><input class="box1" type="number" name="item3" placeholder="enter the quantity"></td>
+      </tr>
+
+      <tr> 
+        <td><input class="box" type="checkbox" value="item4" name="items" id="check4"/>
+          <label for="check4">
+            <div><i class="fa fa-check"></i></div> GRILLED PANEER SANDWICH
+          </label>
+        </td>
+        <td><input class="box1" type="number" name="item4" placeholder="enter the quantity"></td>
+      </tr>
+
+      <tr> 
+        <td><input class="box" type="checkbox" value="item5" name="items" id="check5"/>
+        <label for="check5">
+          <div><i class="fa fa-check"></i></div> GRILLED CHICKEN SANDWICH
+        </label></td>
+        <td><input class="box1" type="number" name="item5" placeholder="enter the quantity"></td>
+      </tr>
+
+      <tr> 
+        <td><input class="box" type="checkbox" value="item6" name="items" id="check6"/>
+        <label for="check6">
+          <div><i class="fa fa-check"></i></div> MARGARITA
+        </label></td>
+        <td><input class="box1" type="number" name="item6" placeholder="enter the quantity"></td>
+      </tr>
+
+      <tr> 
+        <td><input class="box" type="checkbox" value="item7" name="items" id="check7"/>
+        <label for="check7">
+          <div><i class="fa fa-check"></i></div> FARMHOUSE
+        </label></td>
+        <td><input class="box1" type="number" name="item7" placeholder="enter the quantity"></td>
+      </tr>
+
+      <tr> 
+        <td><input class="box" type="checkbox" value="item8" name="items" id="check8"/>
+          <label for="check8">
+            <div><i class="fa fa-check"></i></div> CHICKEN DOMINATOR
+          </label>
+        </td>
+        <td><input class="box1" type="number" name="item8" placeholder="enter the quantity"></td>
+      </tr>
+      <tr> 
+        <td><input class="box" type="checkbox" value="item9" name="items" id="check9"/>
+        <label for="check9">
+          <div><i class="fa fa-check"></i></div> PANEER BURGER
+        </label></td>
+        <td><input class="box1" type="number" name="item9" placeholder="enter the quantity"></td>
+      </tr>
+
+      <tr> 
+        <td><input class="box" type="checkbox" value="item10" name="items" id="check10"/>
+        <label for="check10">
+          <div><i class="fa fa-check"></i></div> CHICKEN BURGER
+        </label></td>
+        <td><input class="box1" type="number" name="item10" placeholder="enter the quantity"></td>
+      </tr>
+
+      <tr> 
+        <td><input class="box" type="checkbox" value="item11" name="items" id="check11"/>
+        <label for="check11">
+          <div><i class="fa fa-check"></i></div> CHEESE BURGER
+        </label></td>
+        <td><input class="box1" type="number" name="item11" placeholder="enter the quantity"></td>
+      </tr>
+      <tr> 
+        <td><input class="box" type="checkbox" value="item12" name="items" id="check12"/>
+         <label for="check12">
+          <div><i class="fa fa-check"></i></div> FRESH FRUIT JUICE 
+        </label></td>
+        <td><input class="box1" type="number" name="item12" placeholder="enter the quantity"></td>
+      </tr>
+
+      <tr> 
+        <td><input class="box" type="checkbox" value="item13" name="items" id="check13"/>
+        <label for="check13">
+          <div><i class="fa fa-check"></i></div> MILKSHAKES
+        </label></td>
+        <td><input class="box1" type="number" name="item13" placeholder="enter the quantity"></td>
+      </tr>
+
+      <tr> 
+        <td><input class="box"type="checkbox" value="item14" name="items" id="check14"/>
+        <label for="check14">
+          <div><i class="fa fa-check"></i></div> WATER BOTTLE
+        </label></td>
+        <td><input class="box1" type="number" name="item14" placeholder="enter the quantity"></td>
+      </tr>
+
+      <tr> 
+        <td><input class="box" type="checkbox" value="item15" name="items" id="check15"/>
+        <label for="check15">
+          <div><i class="fa fa-check"></i></div> PANEER WRAP 
+        </label></td>
+        <td><input class="box1" type="number" name="item15" placeholder="enter the quantity"></td>
+      </tr>
+
+      <tr> 
+        <td><input class="box" type="checkbox" value="item16" name="items" id="check16"/>
+        <label for="check16">
+          <div><i class="fa fa-check"></i></div> CHICKEN WRAP 
+        </label></td>
+        <td><input class="box1" type="number" name="item16" placeholder="enter the quantity"></td>
+      </tr>
+      
+    </table>
+    <input type="submit" value="Payment">
+    </div>
+  </form> 
+  
+</body>
+</html>

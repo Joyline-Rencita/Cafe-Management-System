@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Beverages.css') }}">
+</head>
+<body>
+    <div class="flex">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Fruit.jpg') }}" class="card-img" alt="Image">
+            <h3>Fresh Fruit Juice</h3>
+            <p>Select from our range of Fruit Juices.<br>Mention fruit at the counter.</p>
+            <button class="btn">Order Now</button>
+        </div>
+                
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Milkshakes.jpg') }}" class="card-img" alt="Image">
+            <h3>Milkshakes</h3>
+            <p>Choose from our range of dairy shakes.<br>Mention fruit/flavor at the counter.</p>
+            <button class="btn">Order Now</button>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Water.png') }}" class="card-img" alt="Image">
+            <h3>Packaged Mineral Water</h3>
+            <p>Mineral Water.<br>Mention the brand at the counter.</p>
+            <button class="btn">Order Now</button>
+            
+        
+        
+    </div>
+</body>
+</html>

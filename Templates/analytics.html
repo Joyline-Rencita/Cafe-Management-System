@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics</title>
+    <link rel="stylesheet" href="analytics.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>">
+    <a href="index.html"></a>
+</head>
+<body>
+    <div class="table-box">
+        <div class="table-row table-head">
+            <div class="table-cell first-cell">
+                <p> Month </p>
+            </div>
+            <div class="table-cell">
+                <p> Total Orders </p>
+            </div>
+            <div class="table-cell last-cell">
+                <p> Earnings </p>
+            </div> 
+        </div>
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>January</p>
+            </div>
+            <div class="table-cell">
+                <p>3021</p>
+            </div>
+            <div class="table-cell last-cell">
+               <p>$2050</p>
+            </div>   
+        </div>
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>Febraury</p>
+            </div>
+            <div class="table-cell">
+                <p>2912</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>$1900</p>
+            </div>
+        </div>
+    
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>March</p>
+            </div>
+            <div class="table-cell">
+                <p>2468</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>$2100</p>
+            </div>
+        </div>
+    
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>April</p>
+            </div>
+            <div class="table-cell">
+                <p>2509</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>$2800</p>
+            </div>
+        </div>
+    
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>May</p>
+            </div>
+            <div class="table-cell">
+                <p>3043</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>$1800</p>
+            </div>
+        </div>
+    
+    
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>June</p>
+            </div>
+            <div class="table-cell">
+                <p>2345</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>$2000</p>
+            </div>
+        </div>
+    
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>July</p>
+            </div>
+            <div class="table-cell">
+                <p>3432</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>$2500</p>
+            </div>
+        </div>
+    
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>August</p>
+            </div>
+            <div class="table-cell">
+                <p>4021</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>$2600</p>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>September</p>
+            </div>
+            <div class="table-cell">
+                <p>3921</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>$2450</p>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>October</p>
+            </div>
+            <div class="table-cell">
+                <p>3010</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>$1950</p>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>November</p>
+            </div>
+            <div class="table-cell">
+                <p>2300</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>$2300</p>
+            </div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell first-cell">
+                <p>December</p>
+            </div>
+            <div class="table-cell">
+                <p>3492</p>
+            </div>
+            <div class="table-cell last-cell">
+                <p>$2900</p>
+            </div>
+        </div>
+    </div>        
+    <div class="charts">
+        <div class="chart">
+            <h2>Earnings (past 12 months)</h2>
+            <div>
+                <canvas id="lineChart"></canvas>
+            </div>
+        </div>
+        <div class="chart doughnut-chart">
+            <h2>Employees</h2>
+            <div>
+                <canvas id="doughnut"></canvas>
+            </div>
+        
+        
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>-
+<script src="{{ url_for('static', filename='js/chart3.js') }}"></script>
+<script src="{{ url_for('static', filename='js/chart4.js') }}"></script>
+
+</body>
+</html>

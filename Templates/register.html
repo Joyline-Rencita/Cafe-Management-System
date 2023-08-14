@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/register.css') }}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>  -->
+	<title>Register Form </title>
+</head>
+<body>
+	<div class="container" id="container">
+		
+		<div class="form-container log-in-container">
+			<form action="{{url_for('Register')}}" method="post">
+				<h1>Register</h1>
+		<!--	<span>or use your account</span>         -->
+				<p>Name : </p>	
+				<input class="inputField" type="text" placeholder="Enter your full name" name="Name" required/>
+				<p>Phone No. : </p>
+				<input class="inputField" class="l3" type="number" placeholder="Eg : 9879865432" name="phNo" required min="10"/>
+				<p>Address : </p>
+				<input class="inputField" class="l3" type="text" placeholder="Enter your Address" name="Address" required/>
+				<p>Password : </p>
+				<input class="inputField" type="password" placeholder="Enter your password"  name="pswd" required/>
+				<input type="submit" class="submitbtn" value="Register" />
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-right">
+					<h1>Register Form</h1><br>
+					<p>Coming together is a beginning,keeping together is a progress,working together<br> is a success!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

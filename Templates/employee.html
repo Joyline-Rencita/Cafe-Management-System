@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/employee.css') }}">
+</head>
+<body>
+    <form id="form" method="POST" action="{{url_for('employees')}}">   <!--** from function def **-->
+        <input type="text" id="query" name="emp_id" placeholder="Enter EMP_ID">
+        <input type="submit" value="Delete" />
+    </form>
+    <table>
+        <tr>
+            <th>Employee Name</th>
+            <th>EMP_ID</th>
+            <th>Designation</th>
+            <th>Gender</th>
+            <th>Phone Number</th>
+        </tr>
+        {% for row in employees %}
+        <tr>
+            {% for col in row %}
+                <td>{{row[col]}}</td>
+            {% endfor %}    
+        </tr>
+         {% endfor %} 
+    </table>
+</body>
+</html>

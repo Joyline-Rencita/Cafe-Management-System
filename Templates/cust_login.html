@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Custmer Login Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/cust_login.css') }}">
+    <script type="text/javascipt">
+      $(function () {
+        $("#txtName").keypress(function (e) {
+          var keyCode = e.keyCode || e.which;
+
+          //regex for vlaid characters ie alphabets and numbers.
+          $("$lblError").html("");
+
+          var regex = /^[A-Za-z -']+$/;
+
+          //validate textbox value against the regex
+          
+          var isValid = regex.test(String.fromCharCode(keyCode));
+          if(!isvalid) {
+            $("#lblError").html("only alphabets are allowed")
+          }
+          return isValid;
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="center">
+      {% if error %}
+        <p class="error"><strong>Error : </strong>{{error}}</p>
+      {% endif %}
+      <h1>Login</h1>
+      <form action="{{url_for('cust_login')}}" method="post">
+        <div class="txt_field">
+          <input class="l2" type="text" name="Name" placeholder="Enter your name" required/>
+        </div>
+        <div class="txt_field">
+          <input class="l1" type="password" name="pswd" placeholder="Enter your password" required/>
+        </div>
+        <div class="txt_field">
+          <input class="l3" type="number" name="mobile_no" placeholder="Enter your phone number" required/>
+        </div>
+  <!--      <div class="pass">Forgot Password?</div>    --> 
+          <input class="submitbtn" type="submit" value="shop now" />
+        <div class="signup_link"><a href="/Register">Not a member? Register here</a>      
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>

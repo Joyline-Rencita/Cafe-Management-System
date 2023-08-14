@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/shorteates.css') }}">
+</head>
+<body>
+    <div class="flex">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/paneer-roll.jpg') }}" class="card-img" alt="Image">
+            <h3>Premium Paneer Wrap (Veg)</h3>
+            <p>Exotic vegetable roll with Grilled Cottage Cheese.</p>
+            <button class="btn">Order Now</button>
+        </div>
+                
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Chickenroll.png') }}" class="card-img" alt="Image">
+            <h3>Chicken Wrap (Non-Veg)</h3>
+            <p>Exotic Chicken roll with Barbecue Chicken Tikka & Grilled Rashers.</p>
+            <button class="btn">Order Now</button>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Chicken-Nuggets.jpg') }}" class="card-img" alt="Image">
+            <h3>Mexican Nuggets (Non-Veg)</h3>
+            <p>Grilled Chicken nuggets with Peri-Peri Spicy mix.</p>
+            <button class="btn">Order Now</button>
+            
+        
+        
+    </div>
+</body>
+</html>

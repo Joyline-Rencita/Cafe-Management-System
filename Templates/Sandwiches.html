@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Sandwiches.css') }}">
+</head>
+<body>
+    <div class="flex">
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Sandwiches.jpg') }}" class="card-img" alt="Image">
+            <h3>Grilled Paneer Sandwich (Veg)</h3>
+            <p>Premium grilled Sandwich made up of cottage cheese with cheese of top.</p>
+            <button class="btn">Order Now</button>
+        </div>
+                
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Chicken-Grilled-sandwich-1.jpg') }}" class="card-img" alt="Image">
+            <h3>Grilled Chicken Sandwich (Non-Veg)</h3>
+            <p>Premium grilled Sandwich with Chicken.</p>
+            <button class="btn">Order Now</button>
+        </div>
+        <div class="card">
+            <img src="{{ url_for('static', filename='images/Morrocon.png') }}" class="card-img" alt="Image">
+            <h3>Morrocon Sandwich (Non-Veg)</h3>
+            <p>Double cheese Morrocon Grilled sandiwch with chicken.</p>
+            <button class="btn">Order Now</button>
+            
+        
+        
+    </div>
+</body>
+</html>
+
