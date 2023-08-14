@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+}
+
+.background {
+    position: fixed;
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255,255, 255, 0.5));
+    background-size: cover;
+    background-position: centre;
+}
+
+.navbar{
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+    padding: 30px,80px;
+    font-weight: 650;
+    margin-top: 30px;
+}
+.menu{
+    text-align: right;
+    margin-top: -5%;
+    font-style: inherit;
+    
+}
+.menu li{
+    display: inline;
+    margin: 0;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 10;
+    text-align: right;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 25px;
+    
+}
+.menu li a:hover{
+    color: #ff7200;
+    padding: 40px,70px;
+    border: 2px solid #fff;
+    transition-duration: 0.8s;
+
+}
+a{
+    text-decoration: #fff;
+    color: #fff;
+}
+.logo img{
+    border-radius: 50%;
+    width: 130px;
+}
+.home{
+    height: 450px;
+    padding: 90px;
+    margin-top: 100px;
+    text-align: center;
+}
+.title1{
+    font-size: 55px;
+    font-weight: 100;
+    color: #fff;
+}
+.home p{
+    color: rgb(195, 152, 43);
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+input[type="text"] {
+    background-color: rgb(221, 208, 208);
+    position: relative;
+    margin-top: 20px;
+    height: 35px;
+    width: 290px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 22px;
+    font-size: 20px;
+    border-radius: 0%;
+}
+
+.home button{
+    height: 40px;
+    color: #fff;
+    background: #ff7200;
+    padding: 5px 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 150px;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+}
+.home button:hover{
+    background: none;
+    border: 2px solid #ff7200;
+}
+span{
+    color: #ff7200;
+}
+
