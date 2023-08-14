@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/welcome.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <img class="background" src="{{ url_for('static',filename='images/background1.jpg') }}">
+    <div class="container">
+        <div class="navbabr">
+            <a href="#" class="logo">
+                <img src="{{ url_for('static', filename='images/Coffee-Creek_Logo.png') }}" alt="Image">
+            </a>
+            <ul class="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="/Admin_login">LOGIN</a></li>
+       <!---          <li><a href="/menu">MENU</a></li>        -->
+                <li><a href="/reviews">REVIEWS</a></li>   
+       <!---          <li><a href="/contact">CONTACT</a></li>   -->
+                <li><a href="#">ABOUT US</a></li>        
+            </ul>
+        </div>
+        <div class="home">
+            <h2 class="title1">Good <span>Coffee</span> always <br>Find audience</h2>
+            <p>We provide variety of cusines and Best Coffees</p>
+        <!-- <p><input type="text" placeholder=" Enter your phone number "></p> -->
+            <button type="button"><a href="/cust_login">Shop Now</a></button>
+        </div>
+    </div>
+</body>
+</html>
