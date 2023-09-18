@@ -5,4 +5,5 @@ We designed an user-friendly interface for cafe staff and management, collective
 
 ### Technology Used:
 * Front End - HTML, CSS, JavaScript
-
+* Back End - Python Flask
+* Database - MySql
