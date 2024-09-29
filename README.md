@@ -7,6 +7,8 @@ The Cafe Management System mini-project is a database-based solution designed to
 * Front End - HTML, CSS, JavaScript
 * Back End - Python Flask
 * Database - MySql
+
+### Live Demo : https://joyline-rencita-dsouza.github.io/cafe-management-system/
   
 ### Screenshots:
 ![Screenshot (763)](https://github.com/Joyline-Rencita/Cafe-Management-System/assets/107092284/a469a3a2-f585-4b2a-a87e-19db796e427c)
