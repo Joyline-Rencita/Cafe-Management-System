@@ -12,7 +12,5 @@ The Cafe Management System mini-project is a database-based solution designed to
   
 ### Screenshots:
 ![Screenshot (763)](https://github.com/Joyline-Rencita/Cafe-Management-System/assets/107092284/a469a3a2-f585-4b2a-a87e-19db796e427c)
-![Screenshot (764)](https://github.com/Joyline-Rencita/Cafe-Management-System/assets/107092284/e799485e-1504-4fe6-922b-5a012e47afa4)
-![Screenshot (765)](https://github.com/Joyline-Rencita/Cafe-Management-System/assets/107092284/ba4e1add-4025-4fee-bd2f-0226d525cd22)
-![Screenshot (766)](https://github.com/Joyline-Rencita/Cafe-Management-System/assets/107092284/437e8773-739a-496d-bc2c-4bc38deb96ef)
+
 ![Screenshot (767)](https://github.com/Joyline-Rencita/Cafe-Management-System/assets/107092284/bb8c1c00-d509-4617-9aeb-c41f496260ef)
